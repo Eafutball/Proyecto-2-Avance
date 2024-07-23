@@ -1,0 +1,225 @@
+/* General Styles */
+
+/* Text Color Styles */
+.text-primary {
+  color: #f0f0f0 !important; /* Slightly lighter gray */
+}
+
+.text-secondary {
+  color: #d8d8d8 !important; /* Slightly lighter gray */
+}
+
+/* Margin Utility Class */
+.mb-2-6,
+.my-2-6 {
+  margin-bottom: 2.6rem;
+}
+
+/* Product Rating Styles */
+.product-rating {
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.product-rating i {
+  color: #ffc107; /* Brighter yellow */
+  display: inline-block;
+  margin-right: 4px; /* Increased spacing */
+  font-size: 14px;
+}
+
+@media (max-width: 1199px) {
+  .product-rating {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-rating i {
+    font-size: 13px;
+  }
+}
+
+/* Card Wrapper Styles */
+.card-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.25rem; /* Consistent border-radius */
+}
+
+.card-wrapper .card-img {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.card-wrapper .card-img img {
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.25rem; /* Consistent border-radius */
+}
+
+.card-wrapper .card-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem; /* Consistent border-radius */
+  transform: translateX(-100%);
+  transition: 0.8s;
+  z-index: 11;
+  background: rgba(255, 255, 255, 0.9); /* Blanco transparente */
+}
+
+.card-wrapper:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 100%;
+  z-index: 9;
+  transition: 0.8s;
+  background: rgba(0, 123, 255, 0.82); /* Brighter blue background */
+  border-radius: 0.25rem; /* Consistent border-radius */
+}
+
+.card-wrapper:hover:before {
+  right: 0;
+}
+
+.card-wrapper h3,
+.card-wrapper p {
+  color: #fff;
+}
+
+.card-wrapper .read-more {
+  color: #fff;
+}
+
+.card-wrapper .read-more:after {
+  color: #fff;
+}
+
+.card-wrapper:hover .card-body {
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.card-wrapper:hover:before {
+  right: 0;
+}
+
+/* Button Styles */
+
+/* Button Animation Styles */
+@keyframes buttonPulse {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.1);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+.card-wrapper .btn-primary {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff; /* Brighter blue */
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: buttonPulse 0.6s ease-in-out infinite;
+  animation-play-state: paused;
+}
+
+.card-wrapper:hover .btn-primary {
+  animation-play-state: running;
+}
+
+.card-wrapper .btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateX(-50%) scale(1.1);
+}
+
+.card-wrapper .btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Brighter focus outline */
+}
+
+/* Filtros Styles */
+.filtros {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.filtros .dropdown {
+  margin-right: 1rem;
+}
+
+.filtros .btn-primary {
+  background-color: hsl(210, 100%, 15%);
+  border-radius: 16px;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  color: #fff;
+  border-color: hsl(210, 100%, 15%);
+}
+
+.filtros .btn-primary:hover,
+.filtros .btn-primary:focus {
+  background-color: #004975;
+  border-color: #004975;
+  color: #fff;
+}
+
+.filtros .dropdown-menu {
+  padding: 1rem;
+  min-width: 250px;
+  animation: fadeIn 0.5s ease;
+}
+
+.filtros .dropdown-menu .form-control {
+  margin-bottom: 1rem;
+}
+
+.filtros .dropdown-menu li a {
+  color: #004975;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.filtros .dropdown-menu li a:hover {
+  background-color: #00baee;
+  color: #fff;
+  transform: translateX(5px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

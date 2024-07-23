@@ -1,0 +1,224 @@
+{
+  "productos": [
+    {
+      "id": 5,
+      "nombre": "Tabla de surf",
+      "categoria": "deportes acuáticos",
+      "imagenDestacada": "Imagen Tabla Surf 1.jpeg",
+      "precio": 399.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": false
+      },
+      "descripcion": "Tabla de surf para olas grandes, fabricada con materiales ligeros y diseño aerodinámico.",
+      "galeriaImagenes": [
+        "Imagen Tabla Surf 2.jpeg",
+        "Imagen Tabla Surf 3.jpg",
+        "Imagen Tabla Surf 4.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 7-10 días hábiles",
+      "gastosEnvio": "Envío internacional: $19.99",
+      "opcionesEntrega": ["Envío postal"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía limitada de 6 meses.",
+      "resenaUsuarios": {
+        "valoracion": 4.9,
+        "comentario": "Excelente tabla para surfear olas grandes. Muy estable y con buen control."
+      },
+      "anioPublicacion": 2023
+    },
+
+    {
+      "id": 1,
+      "nombre": "Bicicleta de montaña",
+      "categoria": "bicicletas",
+      "imagenDestacada": "Imagen Bici 4.jpeg",
+      "precio": 549.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": true
+      },
+      "descripcion": "Bicicleta de montaña con cuadro de aluminio, suspensiones delanteras y cambios Shimano.",
+      "galeriaImagenes": [
+        "Imagen Bici 3.jpeg",
+        "Imagen Bici 2.jpeg",
+        "Imagen Bici 1.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 4-6 días hábiles",
+      "gastosEnvio": "Gratis para pedidos superiores a $200",
+      "opcionesEntrega": ["Envío postal", "Recogida en tienda"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía de por vida en el cuadro y 2 años en componentes.",
+      "resenaUsuarios": {
+        "valoracion": 4.8,
+        "comentario": "Una bicicleta excelente, muy robusta y perfecta para terrenos difíciles. Muy recomendada."
+      },
+      "anioPublicacion": 2022
+    },
+
+    {
+      "id": 4,
+      "nombre": "Zapatillas de running",
+      "categoria": "calzado",
+      "imagenDestacada": "Zapatilla de Running 1.jpeg",
+      "precio": 99.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": true
+      },
+      "descripcion": "Zapatillas de running ideales para entrenamientos diarios, con tecnología de amortiguación avanzada.",
+      "galeriaImagenes": [
+        "Zapatilla de Running 2.jpeg",
+        "Zapatillas Running 3.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 3-5 días hábiles",
+      "gastosEnvio": "Envío estándar: $4.99",
+      "opcionesEntrega": ["Envío postal", "Recogida en tienda"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía de 1 año por defectos de fabricación.",
+      "resenaUsuarios": {
+        "valoracion": 4.7,
+        "comentario": "Las zapatillas son cómodas y tienen un buen soporte. Perfectas para largas distancias."
+      },
+      "anioPublicacion": 2021
+    },
+    {
+      "id": 6,
+      "nombre": "Pelota de baloncesto",
+      "categoria": "balones",
+      "imagenDestacada": "Bola Baloncesto 1.jpeg",
+      "precio": 24.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": true
+      },
+      "descripcion": "Pelota oficial de baloncesto, diseñada para un buen agarre y durabilidad en el juego.",
+      "galeriaImagenes": [
+        "Bola Baloncesto 2.jpeg",
+        "Bola Baloncesto 3.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 2-4 días hábiles",
+      "gastosEnvio": "Envío estándar: $3.99",
+      "opcionesEntrega": ["Envío postal", "Recogida en tienda"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía de 1 año por defectos de fabricación.",
+      "resenaUsuarios": {
+        "valoracion": 4.5,
+        "comentario": "La pelota tiene buen bote y resistencia. Ideal para partidos y entrenamientos intensos."
+      },
+      "anioPublicacion": 2021
+    },
+    {
+      "id": 7,
+      "nombre": "Casco de ciclismo",
+      "categoria": "accesorios",
+      "imagenDestacada": "Casco Ciclismo 1.jpeg",
+      "precio": 79.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": true
+      },
+      "descripcion": "Casco de ciclismo ligero y seguro, con ventilación ajustable y sistema de ajuste rápido.",
+      "galeriaImagenes": [
+        "Casco Ciclismo 2.jpeg",
+        "Casco Ciclismo 3.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 3-5 días hábiles",
+      "gastosEnvio": "Envío estándar: $4.99",
+      "opcionesEntrega": ["Envío postal", "Recogida en tienda"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía de 2 años por defectos de fabricación.",
+      "resenaUsuarios": {
+        "valoracion": 4.6,
+        "comentario": "El casco es cómodo y ofrece buena protección. Ideal para ciclistas aficionados y profesionales."
+      },
+      "anioPublicacion": 2020
+    },
+    {
+      "id": 8,
+      "nombre": "Guantes de portero",
+      "categoria": "accesorios",
+      "imagenDestacada": "imagen guante portero.jpeg",
+      "precio": 49.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": true
+      },
+      "descripcion": "Guantes de portero profesionales con diseño ergonómico y palma de látex para un mejor agarre.",
+      "galeriaImagenes": [
+        "guante portero 2.jpeg",
+        "guante portero 3.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 2-3 días hábiles",
+      "gastosEnvio": "Envío estándar: $3.99",
+      "opcionesEntrega": ["Envío postal", "Recogida en tienda"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía de 1 año por defectos de fabricación.",
+      "resenaUsuarios": {
+        "valoracion": 4.7,
+        "comentario": "Los guantes son cómodos y ofrecen un buen agarre. Perfectos para partidos y entrenamientos."
+      },
+      "anioPublicacion": 2020
+    },
+    {
+      "id": 2,
+      "nombre": "Raqueta de tenis profesional",
+      "categoria": "raquetas",
+      "imagenDestacada": "Tenis 1.jpeg",
+      "precio": 199.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": false
+      },
+      "descripcion": "Raqueta de tenis de gama alta, fabricada con materiales ligeros y diseño ergonómico.",
+      "galeriaImagenes": [
+        "tenis 2.jpeg",
+        "tenis 3.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 2-3 días hábiles",
+      "gastosEnvio": "Envío estándar: $5.99, Envío express: $12.99",
+      "opcionesEntrega": ["Envío postal"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía de 1 año por defectos de fabricación.",
+      "resenaUsuarios": {
+        "valoracion": 4.6,
+        "comentario": "La raqueta tiene un balance perfecto, me ha ayudado a mejorar mi juego considerablemente."
+      },
+      "anioPublicacion": 2019
+    },
+    {
+      "id": 3,
+      "nombre": "Balón de fútbol profesional",
+      "categoria": "balones",
+      "imagenDestacada": "futbol 1.jpeg",
+      "precio": 29.99,
+      "stock": {
+        "online": true,
+        "tiendaFisica": true
+      },
+      "descripcion": "Balón de fútbol FIFA oficial, cosido a máquina con cubierta de cuero sintético resistente.",
+      "galeriaImagenes": [
+        "futbol 2.jpeg",
+        "futbol 3.jpeg"
+      ],
+      "tiemposEntrega": "Entrega en 1-2 días hábiles",
+      "gastosEnvio": "Gratis para todos los pedidos",
+      "opcionesEntrega": ["Envío postal", "Recogida en tienda"],
+      "enlaceCambiosDevoluciones": "https://tudominio.com/cambios-devoluciones",
+      "enlaceContactoAyuda": "https://tudominio.com/contacto",
+      "garantia": "Garantía de 6 meses por defectos de fabricación.",
+      "resenaUsuarios": {
+        "valoracion": 4.4,
+        "comentario": "Excelente balón, muy duradero y con un buen toque. Ideal para partidos de alta competencia."
+      },
+      "anioPublicacion": 2018
+    }
+  ]
+}
